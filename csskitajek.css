@@ -256,15 +256,12 @@ and (max-width : 480px) {
 		text-align: center;
 	}
   .mainMenu li a {
-		padding: 5px;
-    font-size: 8px;
+		padding: 7px;
+    margin: 3px;
+    font-size: 12px;
 	}
 
-  .mainMenuB li a {
-		padding: 5px;
-    font-size: 8px;
-	}
-
+  
   .secHeader {
     width: 100%;
   }
@@ -321,7 +318,7 @@ and (max-width : 480px) {
 		text-align: center;
 	}
 	.mainMenu li a {
-		padding: 10px;
+		padding: 5px;
 	}
 	.mainMenuB li a {
 		padding: 10px;
@@ -348,7 +345,7 @@ and (max-width : 480px) {
 }
 @media(min-width:768px){
 	.mainMenu li a {
-		padding: 20px 10px;
+		padding: 20px px;
 	}
   .mainMenuB li a {
 		padding: 20px 10px;
