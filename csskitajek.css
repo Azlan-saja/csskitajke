@@ -452,6 +452,12 @@ h5 {
   margin-top: 15px;
 }
 
+.info2 h6 {
+  font-size: 17px;
+  color: #00729B;
+  text-shadow: 0.2px 0.2px 0.2px black;
+  padding: 5px;
+}
 .info2 img {
   background-color: #FcFcFc ;
   /* box-shadow: 0.05px 0.1px 0.1px black; */
