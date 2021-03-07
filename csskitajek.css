@@ -481,10 +481,8 @@ h5 {
 }
 
 .info2 img {
-  background-color: #FAFAFA ;
- /* box-shadow: 0.05px 0.1px 0.1px black;
-   border:1px solid black; */
-  border-radius: 2px 2px 2px;
+  background-color: #FdFdFd ;
+  border-radius: 3px 3px 3px;
   width: 70%;
   display: block;
   margin-left: auto;
