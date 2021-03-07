@@ -259,6 +259,8 @@ and (max-width : 480px) {
 		padding: 7px;
     margin: 2px;
     font-size: 11px;
+    color: #00ACE9;
+    text-shadow: 0.2px 0.2px 0px black;
 	}
 
   
