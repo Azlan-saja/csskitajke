@@ -81,7 +81,7 @@ img {
 	margin: 0 auto;
 }
 .txtWrap1 ul {
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
   padding-left: 0;
 }
 .txtWrap1 ul li {
@@ -160,7 +160,7 @@ img {
 }
 .logo {
 	/* padding: 10; */
-  width: 30px;
+  width: 34%;
   /* margin-top: 15px; */
   /* margin: auto; */
   /* padding: 10px; */
@@ -260,7 +260,7 @@ and (max-width : 480px) {
   .mainMenu li a {
 		padding: 1px;
     margin: 0.5px;
-    font-size: 8px;
+    /* font-size: 8px; */
     color: #00729B;
     text-shadow: 0.2px 0.2px 0.2px black;
 	}
@@ -274,14 +274,14 @@ and (max-width : 480px) {
   }
   .txtWrap1 h2,
   .txtWrap1 h1 {
-    font-size: 14px;
+    /* font-size: 14px; */
   }
   .listContact, .listButton {
     margin-top: 20px;
   }
   .menuSwitch ul li {
     padding: 5px;
-    font-size: 11px;
+    /* font-size: 11px; */
   }
   .teamInfo ul li {
     width: 50%;
@@ -307,9 +307,7 @@ and (max-width : 480px) {
 }
 
 @media(max-width:767px){
-	.mailme {
-		
-	}
+
 	.logo {
 		text-align: center;
 	}
@@ -414,6 +412,28 @@ and (max-width : 480px) {
   }
 }
 
+
+.info2 img {
+  background-color: #FcFcFc ;
+  /* box-shadow: 0.05px 0.1px 0.1px black; */
+  /* border:1px solid black; */
+  border-radius: 2px 2px 2px;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.navbar-fixed-bottom {
+  background-image: linear-gradient(180deg, #F9AD3D , white 190%);
+
+}
+.navbar-fixed-bottom img {
+  width: 10%;
+  float: left;
+}
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
@@ -423,11 +443,6 @@ and (max-device-width : 1024px) {
 	#slider-control-nav { opacity: 1; }
 
 }
-
-
-
-
-
 
 
 .info2 h4 {
@@ -458,24 +473,3 @@ h5 {
   font-size: 15px;
   padding: 5px;
 }
-.info2 img {
-  background-color: #FcFcFc ;
-  /* box-shadow: 0.05px 0.1px 0.1px black; */
-  /* border:1px solid black; */
-  border-radius: 2px 2px 2px;
-  width: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- 
-}
-
-.navbar-fixed-bottom {
-  background-image: linear-gradient(180deg, #F9AD3D , white 190%);
-
-}
-.navbar-fixed-bottom img {
-  width: 10%;
-  float: left;
-}
-
