@@ -450,7 +450,7 @@ and (max-device-width : 1024px) {
   padding: 0px;
   margin:0px;
   font-weight: normal;
-  font-size: 12px;
+  /* font-size: 12px; */
   color: black;
   text-transform: none;
 }
@@ -463,13 +463,13 @@ and (max-device-width : 1024px) {
 }
 
 h5 {
-  font-size: 12px;
+  /* font-size: 12px; */
   text-align: right;
   vertical-align: middle;
   margin-top: 15px;
 }
 
 .info2 h6 {
-  font-size: 15px;
+  /* font-size: 15px; */
   padding: 5px;
 }
