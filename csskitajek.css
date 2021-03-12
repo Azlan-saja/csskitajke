@@ -151,7 +151,7 @@ img {
 
 /* logo + main menu */
 .mWrapper {
-	margin-bottom: 0px;
+	/* margin-bottom: 0px; */
 	box-shadow: 0 4px 4px -2px #f1f0f0;
   	width: 100%;
   	background-color: #FFFFFF;
@@ -169,24 +169,26 @@ img {
 }
 .mainMenu {
   /* border: 1px solid red; */
-  font-size: 19px;
+  /* font-size: 1px; */
   
 }
 .mainMenu ul {
 	float: right;
 	padding-left: 0;
 	margin-bottom: 0;
+  /* border: 1px solid red; */
+  width: 100%;
 }
 .mainMenu li {
 	list-style-type: none;
 	display: inline-block;
-
+  width: 19%;
+  /* border: 1px solid black; */
+  text-align: center;
 }
 .mainMenu li a {
 	display: block;
-	/* text-transform: uppercase; */
 	padding: 20px;
-  /* border: 1px solid black; */
 
 }
 .mainMenu li a:hover {
@@ -258,7 +260,7 @@ and (max-width : 480px) {
   .mainMenu li a {
 		padding: 7px;
     margin: 2px;
-    font-size: 11px;
+    font-size: 8px;
     color: #00729B;
     text-shadow: 0.2px 0.2px 0.2px black;
 	}
@@ -470,7 +472,6 @@ h5 {
 
 .navbar-fixed-bottom {
   background-image: linear-gradient(180deg, #F9AD3D , white 190%);
-  /* linear-gradient(10deg, #F9AD3D, white); */
 
 }
 .navbar-fixed-bottom img {
