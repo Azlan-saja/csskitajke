@@ -187,8 +187,8 @@ img {
   text-align: center;
 }
 .mainMenu li a {
-	display: block;
-	padding: 20px;
+	/* display: block; */
+	/* padding: 10px; */
 
 }
 .mainMenu li a:hover {
@@ -258,8 +258,8 @@ and (max-width : 480px) {
 		text-align: center;
 	}
   .mainMenu li a {
-		padding: 7px;
-    margin: 2px;
+		padding: 1px;
+    margin: 0.5px;
     font-size: 8px;
     color: #00729B;
     text-shadow: 0.2px 0.2px 0.2px black;
@@ -349,7 +349,7 @@ and (max-width : 480px) {
 }
 @media(min-width:768px){
 	.mainMenu li a {
-		padding: 20px px;
+		padding: 1px;
 	}
   .mainMenuB li a {
 		padding: 20px 10px;
@@ -383,7 +383,7 @@ and (max-width : 480px) {
 }
 @media(min-width:992px){
 	.mainMenu li a {
-		padding: 20px;
+		padding: 1px;
 	}
 
   .mainMenuB li a {
